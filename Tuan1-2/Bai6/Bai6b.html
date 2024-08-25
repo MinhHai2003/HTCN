@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Liên Hệ</title>
+    <style>
+        fieldset {
+            width: 700px; /* Đặt chiều rộng */
+            height: auto; /* Đặt chiều cao tự động theo nội dung */
+            padding: 20px; /* Thêm khoảng cách bên trong */
+            border: 2px solid #000; /* Đặt đường viền */
+        }
+
+        *́́́́̃̃̃̃́́́́́́ {
+            margin: 0 auto;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+        }
+        
+        div {
+            background-color: white;
+            width: 650px;
+            padding: 1px 0px 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+
+    <form>
+        <fieldset>
+          <legend>Your message:</legend>
+          <table>
+            <tr>
+                <td><label for="txtTo">To</label></td>
+                <td><input type="text" name="txtTo" id="Tó" value="Example Cafe"></td>
+            </tr>
+
+            <tr>
+                <td><label for="txtEmail">Your email</label></td>
+                <td><input type="text" name="txtEmail" id="email" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="txtMessage">Message</label></td>
+                <td><textarea name="txtMessage" id="message" cols="65" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Attach File</label></td>
+                <td> <button type="submit">Choose File</button> <label for="">No file Chosen</label></td>
+                
+            </tr>
+            
+        </table>
+        <br>
+          
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset>
+          <legend>How did you hear of us?</legend>
+          <table>
+            <tr>
+                <td><label for="list">How did you hear of us?</label></td>
+                <td>
+                    <select >
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="youtube">Youtube</option>
+                        <option value="Khac">Khác</option>
+                    </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="checkbox">Newsletter</label></td>
+                <td><input type="checkbox" name="checkbox" id="checkbox" checked><span> Ensure this box is checked if you would like to receive email updates</span></td>
+            </tr>
+        </table>
+        <br>
+          
+        </fieldset>
+      </form>
+      
+</body>
+</html>
