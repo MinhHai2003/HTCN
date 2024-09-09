@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.Title{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.startes{
+    background-color:bisque;
+    color: brown;
+    letter-spacing: 10px;
+    width: 400px;
+    margin-left: 450px;
+}
+
+.menuMain{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.text-center{
+    margin-left: 250px;
+}
+
+.event-center{
+    position: absolute;
+    left: 1000px;
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    color: aliceblue;
+    top: 145px;
+}
+
+.text-h4{
+    position: absolute;
+    top: 130px;
+}
+
+.txt4{
+    background-color: bisque;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text-input{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+}
+  

@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    display: flexbox;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+header{
+    background-color: antiquewhite;
+    min-height: 190px;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    text-decoration: none;
+
+}
+
+header nav{
+    background-color: aquamarine;
+    min-height: 50px;
+    
+}
+
+div div{
+    background-color: blueviolet;
+    min-height: 300px;
+}
+
+div div article{
+    background-color: aquamarine;
+    width: 75%;
+}
+
+div div aside{
+    background-color: brown;
+    width: 25%;
+}
