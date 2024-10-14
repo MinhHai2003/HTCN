@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#nav{
+    background-color: gray;
+    padding: 10px;
+}
+
+#nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+#nav ul li{
+    margin:0 20px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    
+}
+
+
+
