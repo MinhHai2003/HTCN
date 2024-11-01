@@ -55,7 +55,7 @@
                     return false;
                 } else if (!mauKT.test(maValue)) {
                     // Nếu giá trị không khớp với biểu thức chính quy
-                    $("#tbMa").html("Nhập sai , 2 số đầu phải là năm sinh: ví dụ 0");
+                    $("#tbMa").html("Nhập sai ");
                     $("#tbMa").addClass("mauDo");
                     $("#tbMa").removeClass("mauXanh");
                     return false;
@@ -78,7 +78,7 @@
                     $("#tbTen").removeClass("mauXanh");
                     return false;
                 } else if (regex.test(hoten) == false) {
-                    $("#tbTen").html("Họ tên tối thiểu 2 từ và Hoa đầu từ theo mẫu: Nguyen Van Anh");
+                    $("#tbTen").html("Họ tên tối thiểu 2 từ và Hoa đầu ");
                     $("#tbTen").addClass("mauDo");
                     $("#tbTen").removeClass("mauXanh");
                     return false;
